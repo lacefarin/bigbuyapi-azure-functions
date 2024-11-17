@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\syncproductimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\syncproductimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\syncvariationprices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\syncvariationprices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -20,10 +24,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\AppData\\Local\\Temp\\z3kkbbem..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\syncproductimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\syncproductimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\syncmanufacturers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -206,16 +206,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SyncVariationPrices.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncVariationPrices.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncVariationPrices.cs",
-              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncVariationPrices.cs*",
-              "RelativeToolTip": "BigBuyApi\\SyncVariationPrices.cs*",
+              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncVariationPrices.cs",
+              "RelativeToolTip": "BigBuyApi\\SyncVariationPrices.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T19:33:46.631Z",
@@ -223,12 +223,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SyncProductPrices.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductPrices.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncProductPrices.cs",
-              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductPrices.cs*",
-              "RelativeToolTip": "BigBuyApi\\SyncProductPrices.cs*",
+              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductPrices.cs",
+              "RelativeToolTip": "BigBuyApi\\SyncProductPrices.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwCUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T19:33:33.438Z",
@@ -236,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SyncProducts.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProducts.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncProducts.cs",
@@ -249,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SyncProductsTaxonomies.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductsTaxonomies.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncProductsTaxonomies.cs",
@@ -275,13 +275,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "SyncProductImages.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductImages.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncProductImages.cs",
-              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductImages.cs",
-              "RelativeToolTip": "BigBuyApi\\SyncProductImages.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductImages.cs*",
+              "RelativeToolTip": "BigBuyApi\\SyncProductImages.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T16:29:38.858Z",
               "EditorCaption": ""
@@ -301,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SQLQuery3.sql ",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\AppData\\Local\\Temp\\z3kkbbem..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\z3kkbbem..sql",
