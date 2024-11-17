@@ -4,6 +4,7 @@ using BigBuyApi.Services.Image;
 using BigBuyApi.Services.Manufacturer;
 using BigBuyApi.Services.Price;
 using BigBuyApi.Services.Product;
+using BigBuyApi.Services.Stock;
 using BigBuyApi.Services.Taxonomy;
 using BigBuyApi.Services.Variation;
 using Microsoft.Azure.Functions.Worker;
@@ -22,6 +23,7 @@ var host = new HostBuilder()
         services.AddHttpClient<IImageService, BigBuyImageService>();
         services.AddHttpClient<IPriceService, BigBuyPriceService>();
         services.AddHttpClient<IVariationService, BigBuyVariationService>();
+        services.AddHttpClient<IStockService, BigBuyStockService>();
         services.AddApplicationInsightsTelemetryWorkerService();
         services.ConfigureFunctionsApplicationInsights();
     })

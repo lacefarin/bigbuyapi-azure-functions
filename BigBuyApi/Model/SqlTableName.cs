@@ -19,6 +19,10 @@ namespace BigBuyApi.Model
         public const string ProductPriceLargeQuantity = "ProductPriceLargeQuantity";
         public const string Variation = "dbo.Variation";
         public const string VariationAttribute = "dbo.VariationAttribute";
-        public const string ProductVariationPriceLargeQuantity = "ProductVariationPriceLargeQuantity";
+        public const string ProductVariationPriceLargeQuantity = "dbo.ProductVariationPriceLargeQuantity";
+        public const string ProductStock = "dbo.ProductStock";
+        public const string ProductStockHandlingDay = "dbo.ProductStockHandlingDay";
+        public const string ProductVariationStock = "dbo.ProductVariationStock";
+        public const string ProductVariationStockHandlingDay = "dbo.ProductVariationStockHandlingDay";
     }
 }

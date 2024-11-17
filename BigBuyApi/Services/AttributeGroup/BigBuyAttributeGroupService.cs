@@ -20,14 +20,14 @@ namespace BigBuyApi.Services.AttributeGroup
 
         public async Task<List<Model.AttributeGroup>?> GetAttributeGroups(int page, int pageSize, string isoCode)
         {
-            var paramters = new Dictionary<string, string?>()
+            var parameters = new Dictionary<string, string?>()
             {
                 { BigBuyParameters.Page, $"{page}" },
                 { BigBuyParameters.PageSize, $"{pageSize}" },
                 { BigBuyParameters.IsoCode, isoCode}
             };
 
-            var reqDat = new RequestData(BigBuyPath.AttributeGroups, paramters);
+            var reqDat = new RequestData(BigBuyPath.AttributeGroups, parameters);
 
             return await _client.GetBigBuyData<Model.AttributeGroup>(reqDat);
         }

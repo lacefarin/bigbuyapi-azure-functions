@@ -11,10 +11,6 @@ namespace BigBuyApi.Services.Price
 {
     public class BigBuyPriceService: IPriceService
     {
-        /* 
-         WARNING: This service is not working in SANDBOX ENVIRONMENT
-         */
-
         private readonly BigBuyClient _client;
         public BigBuyPriceService(HttpClient client)
         {
@@ -65,20 +61,19 @@ namespace BigBuyApi.Services.Price
 
             foreach (var pr in prices)
             {
-                if (pr.PriceLargeQuantities == null)
+                if (pr.PriceLargeQuantities != null)
                 {
-                    continue;
-                }
-
-                foreach (var plq in pr.PriceLargeQuantities)
-                {
-                    Model.PriceLargeQuantity price1 = new Model.PriceLargeQuantity()
+                    foreach (var plq in pr.PriceLargeQuantities)
                     {
-                        Id = plq.Id,
-                        Quantity = plq.Quantity,
-                        Price = plq.Price,
-                        ProductId = pr.Id,
-                    };
+                        Model.PriceLargeQuantity priceLargeQuantity = new Model.PriceLargeQuantity()
+                        {
+                            Id = plq.Id,
+                            Quantity = plq.Quantity,
+                            Price = plq.Price,
+                            ProductId = pr.Id,
+                        };
+                        priceLargeQuantities.Add(priceLargeQuantity);
+                    }
                 }
 
                 Model.Price price = new Model.Price()
@@ -89,6 +84,8 @@ namespace BigBuyApi.Services.Price
                     RetailPrice = pr.RetailPrice,
                     InShopsPrice = pr.InShopsPrice,
                 };
+
+                pricesSql.Add(price);
             }
 
             return (pricesSql, priceLargeQuantities);
@@ -108,15 +105,19 @@ namespace BigBuyApi.Services.Price
 
             foreach (var pr in prices)
             {
-                foreach (var plq in pr.PriceLargeQuantities)
+                if (pr.PriceLargeQuantities != null)
                 {
-                    Model.PriceLargeQuantity price1 = new Model.PriceLargeQuantity()
+                    foreach (var plq in pr.PriceLargeQuantities)
                     {
-                        Id = plq.Id,
-                        Quantity = plq.Quantity,
-                        Price = plq.Price,
-                        ProductId = pr.Id,
-                    };
+                        Model.PriceLargeQuantity priceLargeQuantity = new Model.PriceLargeQuantity()
+                        {
+                            Id = plq.Id,
+                            Quantity = plq.Quantity,
+                            Price = plq.Price,
+                            ProductId = pr.Id,
+                        };
+                        priceLargeQuantities.Add(priceLargeQuantity);
+                    }
                 }
 
                 Model.Price price = new Model.Price()
@@ -127,6 +128,8 @@ namespace BigBuyApi.Services.Price
                     RetailPrice = pr.RetailPrice,
                     InShopsPrice = pr.InShopsPrice,
                 };
+
+                pricesSql.Add(price);
             }
 
             return (pricesSql, priceLargeQuantities);

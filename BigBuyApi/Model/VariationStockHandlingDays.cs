@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace BigBuyApi.Model
 {
-    public class StockHandlingDays: BigBuyStockHandlingDays
+    public class VariationStockHandlingDays: BigBuyStockHandlingDays
     {
-        public int ProductStockId { get; set; }
+        public int VariationStockId { get; set; }
     }
 }

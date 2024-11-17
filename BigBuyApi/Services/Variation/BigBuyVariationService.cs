@@ -69,19 +69,20 @@ namespace BigBuyApi.Services.Variation
 
             foreach (var pv in productsVariations)
             {
-                if (pv.PriceLargeQuantities.IsNullOrEmpty()) { continue; }
-
-                foreach (var plq in pv.PriceLargeQuantities)
+                if (pv.PriceLargeQuantities != null)
                 {
-                    var priceLargeQuantity = new VariationPriceLargeQuantity()
+                    foreach (var plq in pv.PriceLargeQuantities)
                     {
-                        Id = plq.Id,
-                        Quantity = plq.Quantity,
-                        Price = plq.Price,
-                        ProductVariationId = pv.Id
-                    };
+                        var priceLargeQuantity = new VariationPriceLargeQuantity()
+                        {
+                            Id = plq.Id,
+                            Quantity = plq.Quantity,
+                            Price = plq.Price,
+                            ProductVariationId = pv.Id
+                        };
 
-                    priceLargeQuantities.Add(priceLargeQuantity);
+                        priceLargeQuantities.Add(priceLargeQuantity);
+                    }
                 }
 
                 Model.ProductVariation productVariation = pv;

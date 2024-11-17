@@ -18,8 +18,8 @@ namespace BigBuyApi.Model
         internal const string ProductImages = "/rest/catalog/productsimages.json";
         internal const string ProductPrices = "/rest/catalog/productprices.json";
         internal const string ProductVariationPrices = "/rest/catalog/productvariationprices.json";
-        internal const string ProductStock = "rest/catalog/productsstockbyhandlingdays.json";
-        internal const string ProductVariationStock = "/rest/catalog/productsvariationsstockbyhandlingdays.{format}";
+        internal const string ProductStock = "/rest/catalog/productsstockbyhandlingdays.json";
+        internal const string ProductVariationStock = "/rest/catalog/productsvariationsstockbyhandlingdays.json";
         internal const string ProductTags = "/rest/catalog/productstags.json";
         internal const string ProductVariations = "/rest/catalog/productsvariations.json";
         internal const string Variations = "/rest/catalog/variations.json";

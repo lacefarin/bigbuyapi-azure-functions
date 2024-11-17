@@ -49,19 +49,21 @@ namespace BigBuyApi.Services.Product
 
             foreach (var p in products)
             {
-                if (p.PriceLargeQuantities.IsNullOrEmpty()) { continue; }
-
-                foreach (var plq in p.PriceLargeQuantities)
+                if (p.PriceLargeQuantities != null)
                 {
-                    var priceLargeQuantity = new PriceLargeQuantity()
-                    {
-                        Id = plq.Id,
-                        Quantity = plq.Quantity,
-                        Price = plq.Price,
-                        ProductId = p.Id
-                    };
 
-                    priceLargeQuantities.Add(priceLargeQuantity);
+                    foreach (var plq in p.PriceLargeQuantities)
+                    {
+                        var priceLargeQuantity = new PriceLargeQuantity()
+                        {
+                            Id = plq.Id,
+                            Quantity = plq.Quantity,
+                            Price = plq.Price,
+                            ProductId = p.Id
+                        };
+
+                        priceLargeQuantities.Add(priceLargeQuantity);
+                    }
                 }
 
                 Model.Product product = p;
