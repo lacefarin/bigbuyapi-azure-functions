@@ -1,4 +1,4 @@
-using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
 using BigBuyApi.Services.Attribute;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,9 +21,9 @@ namespace BigBuyApi
 
         [Function(nameof(BigBuyApi.SyncAttributes))]
         [SqlOutput(SqlTableName.Attribute, SqlConnectionKey.StringValue)]
-        public async Task<List<Model.Attribute>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
+        public async Task<List<Model.DTO.Attribute>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
-            return await _attributeService.GetAllProductsWithPagination(Model.IsoCode.English);
+            return await _attributeService.GetAllProductsWithPagination(IsoCode.English);
         }
     }
 }

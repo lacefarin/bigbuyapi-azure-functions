@@ -8,7 +8,7 @@ namespace BigBuyApi.Services.AttributeGroup
 {
     public interface IAttributeGroupService
     {
-        Task<List<Model.AttributeGroup>?> GetAttributeGroups(int page, int pageSize, string isoCode);
-        Task<List<Model.AttributeGroup>?> GetAllAttributeGroupsWithPagination(string isoCode);
+        Task<List<Model.DTO.AttributeGroup>?> GetAttributeGroups(int page, int pageSize, string isoCode);
+        Task<List<Model.DTO.AttributeGroup>?> GetAllAttributeGroupsWithPagination(string isoCode);
     }
 }

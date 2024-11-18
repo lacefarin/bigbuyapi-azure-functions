@@ -1,4 +1,4 @@
-using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
 using BigBuyApi.Services.Variation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -32,10 +32,10 @@ namespace BigBuyApi
 
         public class OutputType()
         {
-            [SqlOutput(SqlTableName.ProductVariation, SqlConnectionKey.StringValue)]
-            public List<Model.ProductVariation>? ProductVariations { get; set; }
-            [SqlOutput(SqlTableName.ProductVariationPriceLargeQuantity, SqlConnectionKey.StringValue)]
-            public List<Model.VariationPriceLargeQuantity>? ProductVariationPriceLargeQuantity { get; set; }
+            [SqlOutput(SqlTableName.Product, SqlConnectionKey.StringValue)]
+            public List<Model.Domain.Product>? ProductVariations { get; set; }
+            [SqlOutput(SqlTableName.ProductPriceLargeQuantity, SqlConnectionKey.StringValue)]
+            public List<Model.Domain.PriceLargeQuantity>? ProductVariationPriceLargeQuantity { get; set; }
         }
     }
 }

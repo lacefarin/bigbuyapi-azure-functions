@@ -8,7 +8,7 @@ namespace BigBuyApi.Services.Attribute
 {
     public interface IAttributeService
     {
-        Task<List<Model.Attribute>?> GetAttributes(int page, int pageSize, string isoCode);
-        Task<List<Model.Attribute>?> GetAllProductsWithPagination(string isoCode);
+        Task<List<Model.DTO.Attribute>?> GetAttributes(int page, int pageSize, string isoCode);
+        Task<List<Model.DTO.Attribute>?> GetAllProductsWithPagination(string isoCode);
     }
 }

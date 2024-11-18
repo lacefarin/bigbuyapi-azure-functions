@@ -1,4 +1,6 @@
 ﻿using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.DTO;
 using BigBuyApi.Networking;
 using BigBuyApi.Services.Pagination;
 using System;
@@ -17,7 +19,7 @@ namespace BigBuyApi.Services.Image
             _client = new BigBuyClient(client);
         }
 
-        public async Task<List<Model.ProductImage>?> GetImages(int page, int pageSize, int parentTaxonomy)
+        public async Task<List<ProductImage>?> GetImages(int page, int pageSize, int parentTaxonomy)
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -28,28 +30,28 @@ namespace BigBuyApi.Services.Image
 
             var reqData = new RequestData(BigBuyPath.ProductImages, parameters);
 
-            return await _client.GetBigBuyData<Model.ProductImage>(reqData);
+            return await _client.GetBigBuyData<ProductImage>(reqData);
         }
 
-        public async Task<List<Model.ProductImage>?> GetAllImagesWithPagination(int parentTaxonomy)
+        public async Task<List<ProductImage>?> GetAllImagesWithPagination(int parentTaxonomy)
         {
-            var paginationService = new PaginationService<Model.ProductImage>();
+            var paginationService = new PaginationService<ProductImage>();
             return await paginationService.FetchUntilEmptyResult(parentTaxonomy, GetImages);
         }
 
-        public async Task<List<Model.Image>?> GetAllImagesWithPaginationForSql(int parentTaxonomy)
+        public async Task<List<Model.Domain.Image>?> GetAllImagesWithPaginationForSql(int parentTaxonomy)
         {
             var productImages = await GetAllImagesWithPagination(parentTaxonomy);
 
             if (productImages == null) { return null; }
 
-            var sqlImages = new List<Model.Image>();
+            var sqlImages = new List<Model.Domain.Image>();
 
             foreach (ProductImage pi in productImages)
             {
                 foreach (BigBuyImage bbi in pi.Images)
                 {
-                    var image = new Model.Image()
+                    var image = new Model.Domain.Image()
                     {
                         Id = bbi.Id,
                         IsCover = bbi.IsCover,

@@ -1,4 +1,5 @@
-using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.DTO;
 using BigBuyApi.Services.Manufacturer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -20,8 +21,8 @@ namespace BigBuyApi
         }
 
         [Function(nameof(BigBuyApi.SyncManufacturers))]
-        [SqlOutput(SqlTableName.Manufacturer, SqlConnectionKey.StringValue)]
-        public async Task<List<Model.Manufacturer>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
+        [SqlOutput(Model.Constant.SqlTableName.Manufacturer, SqlConnectionKey.StringValue)]
+        public async Task<List<Manufacturer>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
             return await _manufacturerService.GetAllManufacturersWithPagination(SelectedTaxonomy.HealthAndPersonalCare);
         }

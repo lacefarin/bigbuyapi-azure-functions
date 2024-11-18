@@ -1,4 +1,5 @@
-using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.DTO;
 using BigBuyApi.Services.AttributeGroup;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -22,9 +23,9 @@ namespace BigBuyApi
 
         [Function(nameof(BigBuyApi.SyncAttributeGroups))]
         [SqlOutput(SqlTableName.AttributeGroup, SqlConnectionKey.StringValue)]
-        public async Task<List<Model.AttributeGroup>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
+        public async Task<List<AttributeGroup>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
-            return await _service.GetAllAttributeGroupsWithPagination(Model.IsoCode.English);
+            return await _service.GetAllAttributeGroupsWithPagination(IsoCode.English);
         }
     }
 }

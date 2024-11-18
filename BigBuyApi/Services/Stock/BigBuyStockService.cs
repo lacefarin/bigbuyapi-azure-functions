@@ -1,4 +1,7 @@
 ﻿using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.Domain;
+using BigBuyApi.Model.DTO;
 using BigBuyApi.Networking;
 using BigBuyApi.Services.Pagination;
 using Microsoft.IdentityModel.Tokens;
@@ -18,7 +21,7 @@ namespace BigBuyApi.Services.Stock
             _client = new BigBuyClient(client);
         }
 
-        public async Task<List<Model.BigBuyStock>?> GetProductStock(int page, int pageSize, int parentTaxonomy)
+        public async Task<List<BigBuyStock>?> GetProductStock(int page, int pageSize, int parentTaxonomy)
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -28,10 +31,10 @@ namespace BigBuyApi.Services.Stock
             };
 
             var reqData = new RequestData(BigBuyPath.ProductStock, parameters);
-            return await _client.GetBigBuyData<Model.BigBuyStock>(reqData);
+            return await _client.GetBigBuyData<BigBuyStock>(reqData);
         }
 
-        public async Task<List<Model.BigBuyStock>?> GetVariationStock(int page, int pageSize, int parentTaxonomy)
+        public async Task<List<BigBuyStock>?> GetVariationStock(int page, int pageSize, int parentTaxonomy)
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -41,28 +44,28 @@ namespace BigBuyApi.Services.Stock
             };
 
             var reqData = new RequestData(BigBuyPath.ProductVariationStock, parameters);
-            return await _client.GetBigBuyData<Model.BigBuyStock>(reqData);
+            return await _client.GetBigBuyData<BigBuyStock>(reqData);
         }
 
-        public async Task<List<Model.BigBuyStock>?> GetProductStockWithPagination(int parentTaxonomy)
+        public async Task<List<BigBuyStock>?> GetProductStockWithPagination(int parentTaxonomy)
         { 
-            var paginationService = new PaginationService<Model.BigBuyStock>();
+            var paginationService = new PaginationService<BigBuyStock>();
             return await paginationService.FetchUntilEmptyResult(parentTaxonomy, GetProductStock);
         }
 
-        public async Task<List<Model.BigBuyStock>?> GetVariationStockWithPagination(int parentTaxonomy)
+        public async Task<List<BigBuyStock>?> GetVariationStockWithPagination(int parentTaxonomy)
         {
-            var paginationService = new PaginationService<Model.BigBuyStock>();
+            var paginationService = new PaginationService<BigBuyStock>();
             return await paginationService.FetchUntilEmptyResult(parentTaxonomy, GetVariationStock);
         }
 
-        public async Task<(List<Model.Stock>?, List<StockHandlingDays>?)> GetProductStockWithHandlingDays(int parentTaxonomy)
+        public async Task<(List<Model.Domain.Stock>?, List<StockHandlingDays>?)> GetProductStockWithHandlingDays(int parentTaxonomy)
         { 
             var bbStock = await GetProductStockWithPagination(parentTaxonomy);
 
             if (bbStock.IsNullOrEmpty()) { return (null, null); }
 
-            var stocks = new List<Model.Stock>();
+            var stocks = new List<Model.Domain.Stock>();
             var stockHandlingDays = new List<StockHandlingDays>();
 
             foreach (var bbs in bbStock)
@@ -73,7 +76,7 @@ namespace BigBuyApi.Services.Stock
                     {
                         var stockHandlingDay = new StockHandlingDays()
                         {
-                            ProductStockId = bbs.Id,
+                            StockId = bbs.Id,
                             Quantity = shd.Quantity,
                             MinHandlingDays = shd.MinHandlingDays,
                             MaxHandlingDays = shd.MaxHandlingDays,
@@ -84,21 +87,21 @@ namespace BigBuyApi.Services.Stock
                     }
                 }
 
-                Model.Stock stock = bbs;
+                Model.Domain.Stock stock = bbs;
                 stocks.Add(stock);
             }
 
             return (stocks, stockHandlingDays);
         }
 
-        public async Task<(List<Model.Stock>?, List<VariationStockHandlingDays>?)> GetVariationStockWithHandlingDays(int parentTaxonomy)
+        public async Task<(List<Model.Domain.Stock>?, List<StockHandlingDays>?)> GetVariationStockWithHandlingDays(int parentTaxonomy)
         {
             var bbStock = await GetVariationStockWithPagination(parentTaxonomy);
 
             if (bbStock.IsNullOrEmpty()) { return (null, null); }
 
-            var stocks = new List<Model.Stock>();
-            var stockHandlingDays = new List<VariationStockHandlingDays>();
+            var stocks = new List<Model.Domain.Stock>();
+            var stockHandlingDays = new List<StockHandlingDays>();
 
             foreach (var bbs in bbStock)
             {
@@ -106,9 +109,9 @@ namespace BigBuyApi.Services.Stock
                 {
                     foreach (var shd in bbs.Stocks)
                     {
-                        var stockHandlingDay = new VariationStockHandlingDays()
+                        var stockHandlingDay = new StockHandlingDays()
                         {
-                            VariationStockId = bbs.Id,
+                            StockId = bbs.Id,
                             Quantity = shd.Quantity,
                             MinHandlingDays = shd.MinHandlingDays,
                             MaxHandlingDays = shd.MaxHandlingDays,
@@ -119,7 +122,7 @@ namespace BigBuyApi.Services.Stock
                     }
                 }
 
-                Model.Stock stock = bbs;
+                Model.Domain.Stock stock = bbs;
                 stocks.Add(stock);
             }
 

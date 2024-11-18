@@ -1,4 +1,5 @@
-using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.Domain;
 using BigBuyApi.Services.Image;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,9 +22,9 @@ namespace BigBuyApi
 
         [Function(nameof(BigBuyApi.SyncProductImages))]
         [SqlOutput(SqlTableName.ProductImage, SqlConnectionKey.StringValue)]
-        public async Task<List<Model.Image>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
+        public async Task<List<Image>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
-            return await _imageService.GetAllImagesWithPaginationForSql(Model.SelectedTaxonomy.HealthAndPersonalCare);
+            return await _imageService.GetAllImagesWithPaginationForSql(SelectedTaxonomy.HealthAndPersonalCare);
         }
     }
 }

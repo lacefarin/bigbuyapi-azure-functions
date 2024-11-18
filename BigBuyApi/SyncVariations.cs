@@ -1,4 +1,5 @@
-using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.Domain;
 using BigBuyApi.Services.Variation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -20,7 +21,7 @@ namespace BigBuyApi
         }
 
         [Function(nameof(BigBuyApi.SyncVariations))]
-        [SqlOutput(Model.SqlTableName.VariationAttribute, Model.SqlConnectionKey.StringValue)]
+        [SqlOutput(SqlTableName.VariationAttribute, SqlConnectionKey.StringValue)]
         public async Task<List<VariationAttribute>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
             var variationAttributes = await _variationService.GetAllProductVariationsWithAttributes(SelectedTaxonomy.HealthAndPersonalCare);

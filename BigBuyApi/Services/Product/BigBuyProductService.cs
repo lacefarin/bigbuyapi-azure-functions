@@ -1,4 +1,7 @@
 ﻿using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.Domain;
+using BigBuyApi.Model.DTO;
 using BigBuyApi.Networking;
 using BigBuyApi.Services.Pagination;
 using Microsoft.IdentityModel.Tokens;
@@ -18,7 +21,7 @@ namespace BigBuyApi.Services.Product
         {
             _client = new BigBuyClient(client);
         }
-        public async Task<List<Model.BigBuyProduct>?> GetProducts(int page, int pageSize, int parentTaxonomy)
+        public async Task<List<BigBuyProduct>?> GetProducts(int page, int pageSize, int parentTaxonomy)
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -29,22 +32,22 @@ namespace BigBuyApi.Services.Product
 
             var reqData = new RequestData(BigBuyPath.Products, parameters);
 
-            return await _client.GetBigBuyData<Model.BigBuyProduct>(reqData);
+            return await _client.GetBigBuyData<BigBuyProduct>(reqData);
         }
 
-        public async Task<List<Model.BigBuyProduct>> GetAllProductsWithPagination(int parentTaxonomy)
+        public async Task<List<BigBuyProduct>> GetAllProductsWithPagination(int parentTaxonomy)
         {
-            var paginationService = new PaginationService<Model.BigBuyProduct>();
+            var paginationService = new PaginationService<BigBuyProduct>();
             return await paginationService.FetchUntilEmptyResult(parentTaxonomy, GetProducts);
         }
 
-        public async Task<(List<Model.Product>?, List<PriceLargeQuantity>?)> GetAllProductsWithPriceLargeQuantities(int parentTaxonomy)
+        public async Task<(List<Model.Domain.Product>?, List<PriceLargeQuantity>?)> GetAllProductsWithPriceLargeQuantities(int parentTaxonomy)
         {
             var products = await GetAllProductsWithPagination(parentTaxonomy);
 
             if (products.IsNullOrEmpty()) { return (null, null);  }
 
-            var productsSql = new List<Model.Product>();
+            var productsSql = new List<Model.Domain.Product>();
             var priceLargeQuantities = new List<PriceLargeQuantity>();
 
             foreach (var p in products)
@@ -66,7 +69,7 @@ namespace BigBuyApi.Services.Product
                     }
                 }
 
-                Model.Product product = p;
+                Model.Domain.Product product = p;
                 productsSql.Add(product);
             }
 

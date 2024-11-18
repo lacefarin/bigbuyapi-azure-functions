@@ -1,4 +1,7 @@
 ﻿using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.Domain;
+using BigBuyApi.Model.DTO;
 using BigBuyApi.Networking;
 using BigBuyApi.Services.Pagination;
 using System;
@@ -17,7 +20,7 @@ namespace BigBuyApi.Services.Price
             _client = new BigBuyClient(client);
         }
 
-        public async Task<List<Model.ProductPrice>?> GetProductPrices(int page, int pageSize, int parentTaxonomy)
+        public async Task<List<ProductPrice>?> GetProductPrices(int page, int pageSize, int parentTaxonomy)
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -29,10 +32,10 @@ namespace BigBuyApi.Services.Price
 
             var reqData = new RequestData(BigBuyPath.ProductPrices, parameters);
 
-            return await _client.GetBigBuyData<Model.ProductPrice>(reqData);
+            return await _client.GetBigBuyData<ProductPrice>(reqData);
         }
 
-        public async Task<List<Model.ProductPrice>?> GetProductVariationPrices(int page, int pageSize, int parentTaxonomy)
+        public async Task<List<ProductPrice>?> GetProductVariationPrices(int page, int pageSize, int parentTaxonomy)
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -44,20 +47,20 @@ namespace BigBuyApi.Services.Price
 
             var reqData = new RequestData(BigBuyPath.ProductVariationPrices, parameters);
 
-            return await _client.GetBigBuyData<Model.ProductPrice>(reqData);
+            return await _client.GetBigBuyData<ProductPrice>(reqData);
         }
 
-        public async Task<(List<Model.Price>?, List<Model.PriceLargeQuantity>?)> GetAllProductPriceWithPagination(int parentTaxonomy)
+        public async Task<(List<Model.Domain.Price>?, List<PriceLargeQuantity>?)> GetAllProductPriceWithPagination(int parentTaxonomy)
         {
-            var servicePrice = new PaginationService<Model.ProductPrice>();
+            var servicePrice = new PaginationService<ProductPrice>();
 
             var prices = await servicePrice.FetchUntilEmptyResult(parentTaxonomy, GetProductPrices);
 
             if (prices == null) { return (null, null); }
 
-            List<Model.Price> pricesSql = new List<Model.Price>();
+            List<Model.Domain.Price> pricesSql = new List<Model.Domain.Price>();
 
-            var priceLargeQuantities = new List<Model.PriceLargeQuantity>();
+            var priceLargeQuantities = new List<PriceLargeQuantity>();
 
             foreach (var pr in prices)
             {
@@ -65,7 +68,7 @@ namespace BigBuyApi.Services.Price
                 {
                     foreach (var plq in pr.PriceLargeQuantities)
                     {
-                        Model.PriceLargeQuantity priceLargeQuantity = new Model.PriceLargeQuantity()
+                        PriceLargeQuantity priceLargeQuantity = new Model.Domain.PriceLargeQuantity()
                         {
                             Id = plq.Id,
                             Quantity = plq.Quantity,
@@ -76,7 +79,7 @@ namespace BigBuyApi.Services.Price
                     }
                 }
 
-                Model.Price price = new Model.Price()
+                Model.Domain.Price price = new Model.Domain.Price()
                 {
                     Id = pr.Id,
                     Sku = pr.Sku,
@@ -91,17 +94,17 @@ namespace BigBuyApi.Services.Price
             return (pricesSql, priceLargeQuantities);
         }
 
-        public async Task<(List<Model.Price>?, List<Model.PriceLargeQuantity>?)> GetAllProductVariationPriceWithPagination(int parentTaxonomy)
+        public async Task<(List<Model.Domain.Price>?, List<PriceLargeQuantity>?)> GetAllProductVariationPriceWithPagination(int parentTaxonomy)
         {
-            var servicePrice = new PaginationService<Model.ProductPrice>();
+            var servicePrice = new PaginationService<ProductPrice>();
 
             var prices = await servicePrice.FetchUntilEmptyResult(parentTaxonomy, GetProductVariationPrices);
 
             if (prices == null) { return (null, null); }
 
-            List<Model.Price> pricesSql = new List<Model.Price>();
+            List<Model.Domain.Price> pricesSql = new List<Model.Domain.Price>();
 
-            var priceLargeQuantities = new List<Model.PriceLargeQuantity>();
+            var priceLargeQuantities = new List<PriceLargeQuantity>();
 
             foreach (var pr in prices)
             {
@@ -109,7 +112,7 @@ namespace BigBuyApi.Services.Price
                 {
                     foreach (var plq in pr.PriceLargeQuantities)
                     {
-                        Model.PriceLargeQuantity priceLargeQuantity = new Model.PriceLargeQuantity()
+                        PriceLargeQuantity priceLargeQuantity = new Model.Domain.PriceLargeQuantity()
                         {
                             Id = plq.Id,
                             Quantity = plq.Quantity,
@@ -120,7 +123,7 @@ namespace BigBuyApi.Services.Price
                     }
                 }
 
-                Model.Price price = new Model.Price()
+                Model.Domain.Price price = new Model.Domain.Price()
                 {
                     Id = pr.Id,
                     Sku = pr.Sku,

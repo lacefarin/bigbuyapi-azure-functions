@@ -1,4 +1,5 @@
-﻿using BigBuyApi.Model;
+﻿using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.Domain;
 using BigBuyApi.Networking;
 using BigBuyApi.Services.Pagination;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -16,7 +17,7 @@ namespace BigBuyApi.Services.Taxonomy
             _client = new BigBuyClient(client);
         }
 
-        public async Task<List<Model.Taxonomy>?> GetAllTaxonomies()
+        public async Task<List<Model.Domain.Taxonomy>?> GetAllTaxonomies()
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -25,10 +26,10 @@ namespace BigBuyApi.Services.Taxonomy
 
             var reqData = new RequestData(BigBuyPath.Taxonomies, parameters);
 
-            return await _client.GetBigBuyData<Model.Taxonomy>(reqData);
+            return await _client.GetBigBuyData<Model.Domain.Taxonomy>(reqData);
         }
 
-        public async Task<List<Model.Taxonomy>?> GetFirstLevelTaxonomies()
+        public async Task<List<Model.Domain.Taxonomy>?> GetFirstLevelTaxonomies()
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -38,17 +39,17 @@ namespace BigBuyApi.Services.Taxonomy
 
             var reqData = new RequestData(BigBuyPath.Taxonomies, parameters);
 
-            return await _client.GetBigBuyData<Model.Taxonomy>(reqData);
+            return await _client.GetBigBuyData<Model.Domain.Taxonomy>(reqData);
         }
 
-        public List<Model.Taxonomy> GetAllRelatedTaxonomies(int parentId, List<Model.Taxonomy> taxonomies)
+        public List<Model.Domain.Taxonomy> GetAllRelatedTaxonomies(int parentId, List<Model.Domain.Taxonomy> taxonomies)
         { 
             var taxonomiesMap = MakeTaxonomiesMap(taxonomies);
             var relatedTaxonomies = CollectRelatedTaxonomies(parentId, taxonomiesMap);
             return relatedTaxonomies;
         }
 
-        public async Task<List<Model.ProductTaxonomy>?> GetProductTaxonomies(int page, int pageSize, int parentTaxonomy)
+        public async Task<List<ProductTaxonomy>?> GetProductTaxonomies(int page, int pageSize, int parentTaxonomy)
         { 
 
             var parameters = new Dictionary<string, string?>()
@@ -61,19 +62,19 @@ namespace BigBuyApi.Services.Taxonomy
 
             var reqData = new RequestData(BigBuyPath.ProductsTaxonomies, parameters);
 
-            return await _client.GetBigBuyData<Model.ProductTaxonomy>(reqData);
+            return await _client.GetBigBuyData<ProductTaxonomy>(reqData);
         }
 
-        public async Task<List<Model.ProductTaxonomy>?> GetAllProductTaxonomiesWithPagination(int parentTaxonomy)
+        public async Task<List<ProductTaxonomy>?> GetAllProductTaxonomiesWithPagination(int parentTaxonomy)
         {
-            var paginationService = new PaginationService<Model.ProductTaxonomy>();
+            var paginationService = new PaginationService<ProductTaxonomy>();
             return await paginationService.FetchUntilEmptyResult(parentTaxonomy, GetProductTaxonomies);
         }
 
         // Recursive method to collect all descendants
-        private List<Model.Taxonomy> CollectRelatedTaxonomies(int parentId, Dictionary<int, List<Model.Taxonomy>> taxonomyMap)
+        private List<Model.Domain.Taxonomy> CollectRelatedTaxonomies(int parentId, Dictionary<int, List<Model.Domain.Taxonomy>> taxonomyMap)
         {
-            var relatedTaxonomies = new List<Model.Taxonomy>();
+            var relatedTaxonomies = new List<Model.Domain.Taxonomy>();
 
             if (taxonomyMap.ContainsKey(parentId))
             {
@@ -88,9 +89,9 @@ namespace BigBuyApi.Services.Taxonomy
         }
 
         // Method for pairing each taxonomy with parent
-        private Dictionary<int, List<Model.Taxonomy>> MakeTaxonomiesMap(List<Model.Taxonomy>? taxonomies)
+        private Dictionary<int, List<Model.Domain.Taxonomy>> MakeTaxonomiesMap(List<Model.Domain.Taxonomy>? taxonomies)
         {
-            var map = new Dictionary<int, List<Model.Taxonomy>>();
+            var map = new Dictionary<int, List<Model.Domain.Taxonomy>>();
 
             if (taxonomies == null)
                 return map;

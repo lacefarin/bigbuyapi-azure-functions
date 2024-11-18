@@ -1,4 +1,4 @@
-﻿using BigBuyApi.Model;
+﻿using BigBuyApi.Model.Constant;
 using System.Net.Http.Json;
 using System.Text.Json;
 

@@ -1,4 +1,5 @@
 ﻿using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
 using BigBuyApi.Networking;
 using BigBuyApi.Services.Pagination;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
@@ -20,7 +21,7 @@ namespace BigBuyApi.Services.Manufacturer
             _client = new BigBuyClient(client);
         }
 
-        public async Task<List<Model.Manufacturer>?> GetManufacturers(int page, int pageSize, int parentTaxonomy)
+        public async Task<List<Model.DTO.Manufacturer>?> GetManufacturers(int page, int pageSize, int parentTaxonomy)
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -31,12 +32,12 @@ namespace BigBuyApi.Services.Manufacturer
 
             var reqData = new RequestData(BigBuyPath.Manufacturers, parameters);
 
-            return await _client.GetBigBuyData<Model.Manufacturer>(reqData);
+            return await _client.GetBigBuyData<Model.DTO.Manufacturer>(reqData);
         }
 
-        public async Task<List<Model.Manufacturer>> GetAllManufacturersWithPagination(int parentTaxonomy)
+        public async Task<List<Model.DTO.Manufacturer>> GetAllManufacturersWithPagination(int parentTaxonomy)
         {
-            var paginationService = new PaginationService<Model.Manufacturer>();
+            var paginationService = new PaginationService<Model.DTO.Manufacturer>();
             return await paginationService.FetchUntilEmptyResult(parentTaxonomy, GetManufacturers);
         }
     }

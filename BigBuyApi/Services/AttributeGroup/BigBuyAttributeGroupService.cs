@@ -1,4 +1,5 @@
 ﻿using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
 using BigBuyApi.Networking;
 using BigBuyApi.Services.Pagination;
 using System;
@@ -18,7 +19,7 @@ namespace BigBuyApi.Services.AttributeGroup
             _client = new BigBuyClient(client);
         }
 
-        public async Task<List<Model.AttributeGroup>?> GetAttributeGroups(int page, int pageSize, string isoCode)
+        public async Task<List<Model.DTO.AttributeGroup>?> GetAttributeGroups(int page, int pageSize, string isoCode)
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -29,12 +30,12 @@ namespace BigBuyApi.Services.AttributeGroup
 
             var reqDat = new RequestData(BigBuyPath.AttributeGroups, parameters);
 
-            return await _client.GetBigBuyData<Model.AttributeGroup>(reqDat);
+            return await _client.GetBigBuyData<Model.DTO.AttributeGroup>(reqDat);
         }
 
-        public async Task<List<Model.AttributeGroup>?> GetAllAttributeGroupsWithPagination(string isoCode)
+        public async Task<List<Model.DTO.AttributeGroup>?> GetAllAttributeGroupsWithPagination(string isoCode)
         { 
-            var paginationService = new PaginationService<Model.AttributeGroup>();
+            var paginationService = new PaginationService<Model.DTO.AttributeGroup>();
             return await paginationService.FetchUntilEmptyResult(isoCode, GetAttributeGroups);
         }
     }

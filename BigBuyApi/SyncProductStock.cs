@@ -1,4 +1,5 @@
-using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.Domain;
 using BigBuyApi.Services.Stock;
 using BigBuyApi.Services.Variation;
 using Microsoft.AspNetCore.Http;
@@ -33,10 +34,10 @@ namespace BigBuyApi
 
         public class OutputType
         {
-            [SqlOutput(SqlTableName.ProductStock, SqlConnectionKey.StringValue)]
-            public List<Model.Stock>? Stocks { get; set; }
+            [SqlOutput(SqlTableName.Stock, SqlConnectionKey.StringValue)]
+            public List<Stock>? Stocks { get; set; }
             [SqlOutput(SqlTableName.ProductStockHandlingDay, SqlConnectionKey.StringValue)]
-            public List<Model.StockHandlingDays>? StockHandlingDays { get; set; }
+            public List<StockHandlingDays>? StockHandlingDays { get; set; }
         }
 
     }

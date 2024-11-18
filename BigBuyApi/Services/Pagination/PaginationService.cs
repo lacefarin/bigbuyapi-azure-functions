@@ -61,6 +61,32 @@ namespace BigBuyApi.Services.Pagination
 
             return allValues.ToList();
         }
+
+        public async Task<List<T>> FetchUntilEmptyResult(string isoCode, int parentTaxonomy, Func<string, int, int, int, Task<List<T>?>> getResult, int taskBatchSize = 5, int pageSize = 1000)
+        {
+            ConcurrentBag<T> allValues = new ConcurrentBag<T>();
+            int currentPage = -1;
+
+            while (true)
+            {
+                ConcurrentBag<T> values = new ConcurrentBag<T>();
+
+                await Parallel.ForEachAsync(Enumerable.Range(0, taskBatchSize), new ParallelOptions { MaxDegreeOfParallelism = taskBatchSize }, async (i, token) =>
+                {
+                    var pageToFetch = Interlocked.Increment(ref currentPage);
+                    var result = await getResult(isoCode, pageToFetch, pageSize, parentTaxonomy);
+                    result.ForEach(x => values.Add(x));
+                    result.ForEach(x => allValues.Add(x));
+                });
+
+                if (values.Count < pageSize * taskBatchSize)
+                {
+                    break;
+                }
+            }
+
+            return allValues.ToList();
+        }
     }
 
 

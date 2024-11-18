@@ -1,4 +1,5 @@
-using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.Domain;
 using BigBuyApi.Services.Taxonomy;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +27,7 @@ namespace BigBuyApi
 
         [Function(nameof(BigBuyApi.SyncProductsTaxonomies))]
         [SqlOutput(SqlTableName.ProductTaxonomy, SqlConnectionKey.StringValue)]
-        public async Task<List<Model.ProductTaxonomy>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
+        public async Task<List<ProductTaxonomy>?> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
             var productsTaxonomies = await _taxonomyService.GetAllProductTaxonomiesWithPagination(parentTaxonomy);
             return productsTaxonomies;

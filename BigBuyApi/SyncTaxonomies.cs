@@ -1,4 +1,4 @@
-using BigBuyApi.Model;
+using BigBuyApi.Model.Domain;
 using BigBuyApi.Services.Taxonomy;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

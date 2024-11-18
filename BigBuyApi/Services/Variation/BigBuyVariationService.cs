@@ -1,4 +1,7 @@
 ﻿using BigBuyApi.Model;
+using BigBuyApi.Model.Constant;
+using BigBuyApi.Model.Domain;
+using BigBuyApi.Model.DTO;
 using BigBuyApi.Networking;
 using BigBuyApi.Services.Pagination;
 using Microsoft.IdentityModel.Tokens;
@@ -18,7 +21,7 @@ namespace BigBuyApi.Services.Variation
             _client = new BigBuyClient(client);
         }
 
-        public async Task<List<BigBuyProductVariation>?> GetProductVariations(int page, int pageSize, int parentTaxonomy)
+        public async Task<List<Model.DTO.BigBuyProduct>?> GetProductVariations(int page, int pageSize, int parentTaxonomy)
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -28,10 +31,10 @@ namespace BigBuyApi.Services.Variation
             };
 
             var reqData = new RequestData(BigBuyPath.ProductVariations, parameters);
-            return await _client.GetBigBuyData<Model.BigBuyProductVariation>(reqData);
+            return await _client.GetBigBuyData<Model.DTO.BigBuyProduct>(reqData);
         }
 
-        public async Task<List<Model.BigBuyVariation>?> GetVariations(int page, int pageSize, int parentTaxonomy)
+        public async Task<List<BigBuyVariation>?> GetVariations(int page, int pageSize, int parentTaxonomy)
         {
             var parameters = new Dictionary<string, string?>()
             {
@@ -41,31 +44,31 @@ namespace BigBuyApi.Services.Variation
             };
 
             var reqData = new RequestData(BigBuyPath.Variations, parameters);
-            return await _client.GetBigBuyData<Model.BigBuyVariation>(reqData);
+            return await _client.GetBigBuyData<BigBuyVariation>(reqData);
         }
 
-        public async Task<List<BigBuyProductVariation>?> GetAllProductVariationsWithPagination(int parentTaxonomy)
+        public async Task<List<Model.DTO.BigBuyProduct>?> GetAllProductVariationsWithPagination(int parentTaxonomy)
         {
-            var paginationService = new PaginationService<BigBuyProductVariation>();
+            var paginationService = new PaginationService<Model.DTO.BigBuyProduct>();
             var bbProductVariations = await paginationService.FetchUntilEmptyResult(parentTaxonomy, GetProductVariations);
             return bbProductVariations;
         }
 
-        public async Task<List<Model.BigBuyVariation>?> GetAllVariationsWithPagination(int parentTaxonomy)
+        public async Task<List<BigBuyVariation>?> GetAllVariationsWithPagination(int parentTaxonomy)
         { 
-            var paginationService = new PaginationService<Model.BigBuyVariation>();
+            var paginationService = new PaginationService<BigBuyVariation>();
             var bbVariations = await paginationService.FetchUntilEmptyResult(parentTaxonomy, GetVariations);
             return bbVariations;
         }
 
-        public async Task<(List<Model.ProductVariation>?, List<VariationPriceLargeQuantity>?)> GetAllProductVariationsWithPriceLargeQuantities(int parentTaxonomy)
+        public async Task<(List<Model.Domain.Product>?, List<PriceLargeQuantity>?)> GetAllProductVariationsWithPriceLargeQuantities(int parentTaxonomy)
         {
             var productsVariations = await GetAllProductVariationsWithPagination(parentTaxonomy);
 
             if (productsVariations.IsNullOrEmpty()) { return (null, null); }
 
-            var productsVariationSql = new List<Model.ProductVariation>();
-            var priceLargeQuantities = new List<VariationPriceLargeQuantity>();
+            var productsVariationSql = new List<Model.Domain.Product>();
+            var priceLargeQuantities = new List<PriceLargeQuantity>();
 
             foreach (var pv in productsVariations)
             {
@@ -73,19 +76,19 @@ namespace BigBuyApi.Services.Variation
                 {
                     foreach (var plq in pv.PriceLargeQuantities)
                     {
-                        var priceLargeQuantity = new VariationPriceLargeQuantity()
+                        var priceLargeQuantity = new PriceLargeQuantity()
                         {
                             Id = plq.Id,
                             Quantity = plq.Quantity,
                             Price = plq.Price,
-                            ProductVariationId = pv.Id
+                            ProductId = pv.Id
                         };
 
                         priceLargeQuantities.Add(priceLargeQuantity);
                     }
                 }
 
-                Model.ProductVariation productVariation = pv;
+                Model.Domain.Product productVariation = pv;
                 productsVariationSql.Add(productVariation);
             }
 

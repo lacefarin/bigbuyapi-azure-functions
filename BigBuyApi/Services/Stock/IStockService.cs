@@ -1,4 +1,6 @@
 ﻿using BigBuyApi.Model;
+using BigBuyApi.Model.Domain;
+using BigBuyApi.Model.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +11,10 @@ namespace BigBuyApi.Services.Stock
 {
     public interface IStockService
     {
-        Task<List<Model.BigBuyStock>?> GetProductStock(int page, int pageSize, int parentTaxonomy);
-        Task<List<Model.BigBuyStock>?> GetVariationStock(int page, int pageSize, int parentTaxonomy);
-        Task<List<Model.BigBuyStock>?> GetProductStockWithPagination(int parentTaxonomy);
-        Task<(List<Model.Stock>?, List<StockHandlingDays>?)> GetProductStockWithHandlingDays(int parentTaxonomy);
-        Task<(List<Model.Stock>?, List<VariationStockHandlingDays>?)> GetVariationStockWithHandlingDays(int parentTaxonomy);
+        Task<List<BigBuyStock>?> GetProductStock(int page, int pageSize, int parentTaxonomy);
+        Task<List<BigBuyStock>?> GetVariationStock(int page, int pageSize, int parentTaxonomy);
+        Task<List<BigBuyStock>?> GetProductStockWithPagination(int parentTaxonomy);
+        Task<(List<Model.Domain.Stock>?, List<StockHandlingDays>?)> GetProductStockWithHandlingDays(int parentTaxonomy);
+        Task<(List<Model.Domain.Stock>?, List<StockHandlingDays>?)> GetVariationStockWithHandlingDays(int parentTaxonomy);
     }
 }
