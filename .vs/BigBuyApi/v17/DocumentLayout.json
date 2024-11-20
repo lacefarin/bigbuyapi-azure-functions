@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\syncproductinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\syncproductinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\bigbuyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\bigbuyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\services\\productinformation\\bigbuyproductinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\services\\productinformation\\bigbuyproductinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\constant\\bigbuyparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\constant\\bigbuyparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\constant\\bigbuypath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\constant\\bigbuypath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\services\\productinformation\\iproductinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\services\\productinformation\\iproductinformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\services\\product\\bigbuyproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\services\\product\\bigbuyproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,23 +43,7 @@
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\services\\tag\\bigbuytagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\AppData\\Local\\Temp\\cxxs2x33..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\bigbuyproducttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\bigbuyproducttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\sqltablename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\sqltablename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,14 +58,6 @@
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\services\\pagination\\paginationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\bigbuypath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\bigbuypath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\testsyncvariationstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\testsyncvariationstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,20 +70,12 @@
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\syncproductstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\bigbuyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\bigbuyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\syncproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\syncproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\syncattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\syncattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\bigbuypricelargequantities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\bigbuypricelargequantities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\syncproductvariations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,14 +97,6 @@
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\syncmanufacturers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\productprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\productprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\services\\price\\bigbuypriceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\services\\price\\bigbuypriceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -123,10 +107,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\services\\product\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\services\\product\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\bigbuyparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\bigbuyparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\services\\image\\bigbuyimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,59 +123,11 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\AppData\\Local\\Temp\\alniqs04..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\bigbuyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\bigbuyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\services\\attribute\\iattributeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\services\\attribute\\iattributeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\AppData\\Local\\Temp\\3kabuond..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\productvariation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\productvariation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\requestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\requestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\variation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\variation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\attributeid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\attributeid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\stockhandlingdays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\stockhandlingdays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\selectedtaxonomy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\selectedtaxonomy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\services\\manufacturer\\imanufacturerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -218,20 +150,108 @@
       "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\services\\attributegroup\\iattributegroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\isocode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\isocode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|c:\\users\\uporabnik\\developer\\azure\\bigbuyapi\\bigbuyapi\\model\\attributegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54EFE312-D0E8-40B7-9581-EAC5E5ACAA20}|BigBuyApi\\BigBuyApi.csproj|solutionrelative:bigbuyapi\\model\\attributegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncVariationPrices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\SyncVariationPrices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductPrices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\SyncProductPrices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\Tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\ProductTag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\ProductTag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\BigBuyProductTag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\BigBuyProductTag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\SqlTableName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\SqlTableName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\Manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\BigBuyPath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\BigBuyPath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\BigBuyPriceLargeQuantities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\BigBuyPriceLargeQuantities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\Price.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\ProductPrice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\ProductPrice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\BigBuyParameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\BigBuyParameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\BigBuyImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\BigBuyImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\ProductImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\ProductImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\RequestData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\RequestData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Variation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\Variation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\AttributeId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\AttributeId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\ProductVariation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\ProductVariation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\Stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\Attribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\StockHandlingDays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\StockHandlingDays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\SelectedTaxonomy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\SelectedTaxonomy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\IsoCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\IsoCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\AttributeGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BigBuyApi\\Model\\AttributeGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -241,24 +261,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestSyncTags.cs",
-              "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\TestSyncTags.cs",
-              "RelativeDocumentMoniker": "BigBuyApi\\TestSyncTags.cs",
-              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\TestSyncTags.cs",
-              "RelativeToolTip": "BigBuyApi\\TestSyncTags.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwA4AAAA/AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SyncProductInformation.cs",
+              "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductInformation.cs",
+              "RelativeDocumentMoniker": "BigBuyApi\\SyncProductInformation.cs",
+              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductInformation.cs",
+              "RelativeToolTip": "BigBuyApi\\SyncProductInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T15:03:48.37Z",
+              "WhenOpened": "2024-11-20T11:50:37.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BigBuyPath.cs",
+              "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Constant\\BigBuyPath.cs",
+              "RelativeDocumentMoniker": "BigBuyApi\\Model\\Constant\\BigBuyPath.cs",
+              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Constant\\BigBuyPath.cs",
+              "RelativeToolTip": "BigBuyApi\\Model\\Constant\\BigBuyPath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:34:43.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BigBuyParameters.cs",
+              "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Constant\\BigBuyParameters.cs",
+              "RelativeDocumentMoniker": "BigBuyApi\\Model\\Constant\\BigBuyParameters.cs",
+              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Constant\\BigBuyParameters.cs",
+              "RelativeToolTip": "BigBuyApi\\Model\\Constant\\BigBuyParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:34:39.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BigBuyProductInformationService.cs",
+              "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\ProductInformation\\BigBuyProductInformationService.cs",
+              "RelativeDocumentMoniker": "BigBuyApi\\Services\\ProductInformation\\BigBuyProductInformationService.cs",
+              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\ProductInformation\\BigBuyProductInformationService.cs*",
+              "RelativeToolTip": "BigBuyApi\\Services\\ProductInformation\\BigBuyProductInformationService.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:26:12.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BigBuyApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\BigBuyApi.csproj",
+              "RelativeDocumentMoniker": "BigBuyApi\\BigBuyApi.csproj",
+              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\BigBuyApi.csproj",
+              "RelativeToolTip": "BigBuyApi\\BigBuyApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-16T09:05:11.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductInformationService.cs",
+              "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\ProductInformation\\IProductInformationService.cs",
+              "RelativeDocumentMoniker": "BigBuyApi\\Services\\ProductInformation\\IProductInformationService.cs",
+              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\ProductInformation\\IProductInformationService.cs",
+              "RelativeToolTip": "BigBuyApi\\Services\\ProductInformation\\IProductInformationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:25:39.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ITagService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Tag\\ITagService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Tag\\ITagService.cs",
@@ -270,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 40,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Tag.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\Tag.cs",
@@ -282,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 41,
               "Title": "ProductTag.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\ProductTag.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\ProductTag.cs",
@@ -294,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "BigBuyTagService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Tag\\BigBuyTagService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Tag\\BigBuyTagService.cs",
@@ -306,20 +391,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "BigBuyProductService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Product\\BigBuyProductService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Product\\BigBuyProductService.cs",
               "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Product\\BigBuyProductService.cs",
               "RelativeToolTip": "BigBuyApi\\Services\\Product\\BigBuyProductService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAIAzwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T09:14:13.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "TestSyncTags.cs",
+              "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\TestSyncTags.cs",
+              "RelativeDocumentMoniker": "BigBuyApi\\TestSyncTags.cs",
+              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\TestSyncTags.cs",
+              "RelativeToolTip": "BigBuyApi\\TestSyncTags.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T15:03:48.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "cxxs2x33..sql",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\AppData\\Local\\Temp\\cxxs2x33..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\cxxs2x33..sql",
@@ -330,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 42,
               "Title": "BigBuyProductTag.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\BigBuyProductTag.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\BigBuyProductTag.cs",
@@ -342,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Program.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Program.cs",
@@ -354,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 43,
               "Title": "SqlTableName.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\SqlTableName.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\SqlTableName.cs",
@@ -366,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "PaginationService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Pagination\\PaginationService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Pagination\\PaginationService.cs",
@@ -378,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "BigBuyTaxonomyService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Taxonomy\\BigBuyTaxonomyService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Taxonomy\\BigBuyTaxonomyService.cs",
@@ -390,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 44,
               "Title": "Manufacturer.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Manufacturer.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\Manufacturer.cs",
@@ -402,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 45,
               "Title": "BigBuyPath.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\BigBuyPath.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\BigBuyPath.cs",
@@ -426,19 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BigBuyApi.csproj",
-              "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\BigBuyApi.csproj",
-              "RelativeDocumentMoniker": "BigBuyApi\\BigBuyApi.csproj",
-              "ToolTip": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\BigBuyApi.csproj",
-              "RelativeToolTip": "BigBuyApi\\BigBuyApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-16T09:05:11.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "SyncAttributes.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncAttributes.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncAttributes.cs",
@@ -450,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 46,
               "Title": "BigBuyPriceLargeQuantities.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\BigBuyPriceLargeQuantities.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\BigBuyPriceLargeQuantities.cs",
@@ -486,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "SyncProducts.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProducts.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncProducts.cs",
@@ -498,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "SyncProductVariations.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductVariations.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncProductVariations.cs",
@@ -510,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 39,
               "Title": "SyncProductPrices.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductPrices.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncProductPrices.cs",
@@ -522,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "SyncProductsTaxonomies.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductsTaxonomies.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncProductsTaxonomies.cs",
@@ -534,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "SyncProductImages.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncProductImages.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncProductImages.cs",
@@ -546,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 38,
               "Title": "SyncVariationPrices.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncVariationPrices.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncVariationPrices.cs",
@@ -558,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "SyncManufacturers.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\SyncManufacturers.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\SyncManufacturers.cs",
@@ -570,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 47,
               "Title": "Price.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Price.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\Price.cs",
@@ -582,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "z3kkbbem..sql",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\AppData\\Local\\Temp\\z3kkbbem..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\z3kkbbem..sql",
@@ -593,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 48,
               "Title": "ProductPrice.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\ProductPrice.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\ProductPrice.cs",
@@ -605,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 24,
               "Title": "BigBuyPriceService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Price\\BigBuyPriceService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Price\\BigBuyPriceService.cs",
@@ -617,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 25,
               "Title": "IPriceService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Price\\IPriceService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Price\\IPriceService.cs",
@@ -629,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 26,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Product\\IProductService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Product\\IProductService.cs",
@@ -641,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 49,
               "Title": "BigBuyParameters.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\BigBuyParameters.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\BigBuyParameters.cs",
@@ -653,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 28,
               "Title": "IImageService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Image\\IImageService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Image\\IImageService.cs",
@@ -665,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 29,
               "Title": "dbo.Product.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/bigbuy/True/SqlTable/dbo.Product.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/bigbuy/True/SqlTable/dbo.Product.sql",
@@ -674,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 30,
               "Title": "alniqs04..sql",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\AppData\\Local\\Temp\\alniqs04..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\alniqs04..sql",
@@ -685,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 27,
               "Title": "BigBuyImageService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Image\\BigBuyImageService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Image\\BigBuyImageService.cs",
@@ -697,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 50,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Product.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\Product.cs",
@@ -709,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 51,
               "Title": "Image.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Image.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\Image.cs",
@@ -721,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 52,
               "Title": "BigBuyImage.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\BigBuyImage.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\BigBuyImage.cs",
@@ -733,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 53,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\ProductImage.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\ProductImage.cs",
@@ -745,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 31,
               "Title": "IAttributeService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Attribute\\IAttributeService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Attribute\\IAttributeService.cs",
@@ -757,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 32,
               "Title": "3kabuond..sql",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\AppData\\Local\\Temp\\3kabuond..sql",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\3kabuond..sql",
@@ -768,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 54,
               "Title": "RequestData.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\RequestData.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\RequestData.cs",
@@ -780,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 55,
               "Title": "Variation.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Variation.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\Variation.cs",
@@ -792,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 56,
               "Title": "AttributeId.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\AttributeId.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\AttributeId.cs",
@@ -804,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 57,
               "Title": "ProductVariation.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\ProductVariation.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\ProductVariation.cs",
@@ -816,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 58,
               "Title": "Stock.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Stock.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\Stock.cs",
@@ -828,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 59,
               "Title": "Attribute.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\Attribute.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\Attribute.cs",
@@ -840,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 60,
               "Title": "StockHandlingDays.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\StockHandlingDays.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\StockHandlingDays.cs",
@@ -852,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 61,
               "Title": "SelectedTaxonomy.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\SelectedTaxonomy.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\SelectedTaxonomy.cs",
@@ -864,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 34,
               "Title": "BigBuyManufacturerService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Manufacturer\\BigBuyManufacturerService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Manufacturer\\BigBuyManufacturerService.cs",
@@ -876,7 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 33,
               "Title": "IManufacturerService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Manufacturer\\IManufacturerService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Manufacturer\\IManufacturerService.cs",
@@ -888,7 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 36,
               "Title": "BigBuyAttributeGroupService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\AttributeGroup\\BigBuyAttributeGroupService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\AttributeGroup\\BigBuyAttributeGroupService.cs",
@@ -900,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 35,
               "Title": "BigBuyAttributeService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\Attribute\\BigBuyAttributeService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\Attribute\\BigBuyAttributeService.cs",
@@ -912,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 37,
               "Title": "IAttributeGroupService.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Services\\AttributeGroup\\IAttributeGroupService.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Services\\AttributeGroup\\IAttributeGroupService.cs",
@@ -924,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 62,
               "Title": "IsoCode.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\IsoCode.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\IsoCode.cs",
@@ -936,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 63,
               "Title": "AttributeGroup.cs",
               "DocumentMoniker": "C:\\Users\\Uporabnik\\developer\\azure\\BigBuyApi\\BigBuyApi\\Model\\AttributeGroup.cs",
               "RelativeDocumentMoniker": "BigBuyApi\\Model\\AttributeGroup.cs",

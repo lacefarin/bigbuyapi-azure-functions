@@ -16,6 +16,7 @@ namespace BigBuyApi.Model.Constant
         internal const string AttributeGroups = "/rest/catalog/attributegroups.json";
         internal const string Manufacturers = "/rest/catalog/manufacturers.json";
         internal const string ProductImages = "/rest/catalog/productsimages.json";
+        internal const string ProductInformation = "/rest/catalog/productsinformation.json";
         internal const string ProductPrices = "/rest/catalog/productprices.json";
         internal const string ProductVariationPrices = "/rest/catalog/productvariationprices.json";
         internal const string ProductStock = "/rest/catalog/productsstockbyhandlingdays.json";

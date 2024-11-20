@@ -4,6 +4,7 @@ using BigBuyApi.Services.Image;
 using BigBuyApi.Services.Manufacturer;
 using BigBuyApi.Services.Price;
 using BigBuyApi.Services.Product;
+using BigBuyApi.Services.ProductInformation;
 using BigBuyApi.Services.Stock;
 using BigBuyApi.Services.Tag;
 using BigBuyApi.Services.Taxonomy;
@@ -26,6 +27,7 @@ var host = new HostBuilder()
         services.AddHttpClient<IVariationService, BigBuyVariationService>();
         services.AddHttpClient<IStockService, BigBuyStockService>();
         services.AddHttpClient<ITagService,  BigBuyTagService>();
+        services.AddHttpClient<IProductInformationService, BigBuyProductInformationService>();
         services.AddApplicationInsightsTelemetryWorkerService();
         services.ConfigureFunctionsApplicationInsights();
     })
